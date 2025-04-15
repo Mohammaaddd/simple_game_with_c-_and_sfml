@@ -1,0 +1,9 @@
+﻿  Game.cpp
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(96,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(100,50): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(179,27): warning C4018: '<': signed/unsigned mismatch
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(192,20): warning C4018: '<': signed/unsigned mismatch
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(213,23): warning C4018: '<': signed/unsigned mismatch
+  sfml.cpp
+  Generating Code...
+  sfml.vcxproj -> D:\Desktop\LAPTOP\VS\sfml\Debug\sfml.exe
