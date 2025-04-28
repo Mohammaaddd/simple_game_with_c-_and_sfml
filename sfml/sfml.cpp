@@ -2,7 +2,7 @@
 //
 
 #include "Game.h"
-
+#include "Bot.h"
 
 int main()
 {
@@ -11,6 +11,7 @@ int main()
 
 
 	Game game;
+	Bot bot;
 
 	//window.setFramerateLimit(60);
 	//sf::CircleShape shape(50.0f);
@@ -27,7 +28,10 @@ int main()
 	//dxball
 	while (game.running())
 	{
+		game.launchBotScript();
+		bot.update(game);
 		game.Update();
+
 
 		game.render();
 	}

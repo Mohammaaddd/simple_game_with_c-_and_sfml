@@ -1,9 +1,509 @@
-﻿  Game.cpp
-D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(96,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(100,50): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
-D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(179,27): warning C4018: '<': signed/unsigned mismatch
-D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(192,20): warning C4018: '<': signed/unsigned mismatch
-D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(213,23): warning C4018: '<': signed/unsigned mismatch
+﻿  Bot.cpp
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,43): error C2065: 'sf': undeclared identifier
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,43): error C2653: 'sf': is not a class or namespace name
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,47): error C2065: 'RectangleShape': undeclared identifier
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,36): error C2923: 'std::vector': 'RectangleShape' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Bot.cpp')
+      D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,47):
+      see declaration of 'RectangleShape'
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,36): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Bot.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Bot.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Bot.cpp')
+  
+  Game.cpp
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,43): error C2065: 'sf': undeclared identifier
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,43): error C2653: 'sf': is not a class or namespace name
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,47): error C2065: 'RectangleShape': undeclared identifier
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,36): error C2923: 'std::vector': 'RectangleShape' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Game.cpp')
+      D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,47):
+      see declaration of 'RectangleShape'
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,36): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'Game.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(96,20): warning C4018: '<': signed/unsigned mismatch
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(119,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(123,50): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(200,18): error C2664: 'void BotServer::sendEnemyPosition(const std::vector &)': cannot convert argument 1 from 'std::vector<sf::RectangleShape,std::allocator<sf::RectangleShape>>' to 'const std::vector &'
+      D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(200,40):
+      Reason: cannot convert from 'std::vector<sf::RectangleShape,std::allocator<sf::RectangleShape>>' to 'const std::vector'
+      D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(200,40):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,7):
+      see declaration of 'BotServer::sendEnemyPosition'
+      D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(200,18):
+      while trying to match the argument list '(std::vector<sf::RectangleShape,std::allocator<sf::RectangleShape>>)'
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(219,27): warning C4018: '<': signed/unsigned mismatch
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(232,20): warning C4018: '<': signed/unsigned mismatch
+D:\Desktop\LAPTOP\VS\sfml\sfml\Game.cpp(253,23): warning C4018: '<': signed/unsigned mismatch
   sfml.cpp
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,43): error C2065: 'sf': undeclared identifier
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,43): error C2653: 'sf': is not a class or namespace name
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,47): error C2065: 'RectangleShape': undeclared identifier
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,36): error C2923: 'std::vector': 'RectangleShape' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'sfml.cpp')
+      D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,47):
+      see declaration of 'RectangleShape'
+  
+D:\Desktop\LAPTOP\VS\sfml\sfml\BotServer.h(19,36): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'sfml.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(81,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(82,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(83,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(84,19): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(114,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(115,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(116,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(117,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(120,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(121,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(122,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(123,21): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(126,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(127,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(128,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'sfml.cpp')
+  
+D:\Desktop\LAPTOP\VS\sfml\EXTERNAL\SFML\include\SFML\Graphics\Rect.inl(129,26): error C3878: syntax error: unexpected token ')' following 'expression-statement'
+  (compiling source file 'sfml.cpp')
+  
   Generating Code...
-  sfml.vcxproj -> D:\Desktop\LAPTOP\VS\sfml\Debug\sfml.exe

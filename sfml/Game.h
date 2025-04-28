@@ -4,6 +4,8 @@
 #include <vector>
 #include <ctime>
 #include <sstream>
+#include "BotServer.h"
+#include <fstream>
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
@@ -28,6 +30,7 @@ private:
 	float enemySpeed;
 	std::vector<float> enemiesSpeed;
 	bool mouseHeld;
+	BotServer botServer;
 	
 	//Resource
 	sf::Font font;
@@ -62,9 +65,15 @@ public:
 	const bool running() const;
 
 	//functions
+	void botClickAt(sf::Vector2f position);
+	sf::RenderWindow* const getWindow();
+	std::vector<sf::RectangleShape> getEnemies();
 	void spawnEnemies();
 	void pollEvent();
 	void showGO();
+	std::vector<sf::Vector2f> getEnemyPositions() const;
+	void handleClick(sf::Vector2f clickPos);
+	void launchBotScript();
 
 	void updateMousePosition();
 	void Update();

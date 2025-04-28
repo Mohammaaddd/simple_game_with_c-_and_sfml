@@ -7,6 +7,8 @@ Game::Game()
 	this->initVariables();
 	this->initWindow();
 	this->initEnemies();
+	this->botServer.init();
+	this->launchBotScript();
 }
 
 const bool Game::running() const
@@ -90,6 +92,28 @@ void Game::initText()
 
 
 
+void Game::botClickAt(sf::Vector2f position)
+{
+	for (int i = 0; i < enemies.size(); i++) {
+		if (enemies[i].getGlobalBounds().contains(position)) {
+			enemies.erase(enemies.begin() + i);
+			enemiesSpeed.erase(enemiesSpeed.begin() + i);
+			points++;
+			break;
+		}
+	}
+}
+
+sf::RenderWindow* const Game::getWindow()
+{
+	return this->window;
+}
+
+std::vector<sf::RectangleShape> Game::getEnemies()
+{
+	return this->enemies;
+}
+
 //public funtions
 void Game::spawnEnemies()
 {
@@ -137,6 +161,59 @@ void Game::showGO()
 		this->window->getSize().y / 2.0f);
 }
 
+std::vector<sf::Vector2f> Game::getEnemyPositions() const
+{
+	std::vector<sf::Vector2f> positions;
+	for (const auto& enemy : this->enemies)
+	{
+		positions.push_back(enemy.getPosition());
+	}
+	return positions;
+}
+
+void Game::handleClick(sf::Vector2f clickPos)
+{
+	std::ofstream log("training_data.txt", std::ios::app);
+
+	log << "STATE";
+	for (const auto& enemy : this->enemies)
+	{
+		log << " " << enemy.getPosition().x << " " << enemy.getPosition().y;
+	}
+
+	log << " ACTION " << clickPos.x << " " << clickPos.y << "\n";
+
+	log.close();
+}
+
+void Game::launchBotScript()
+{
+	STARTUPINFOA si;
+	PROCESS_INFORMATION pi;
+	ZeroMemory(&si, sizeof(si));
+	si.cb = sizeof(si);
+	ZeroMemory(&pi, sizeof(pi));
+
+	// Command line
+	LPSTR commandLine = (LPSTR)"python \"D:\\Visual studio\\sfml_game\\sfml_game\\sfml_game.py\"";  // Editable string
+
+	// Launch the process
+	if (!CreateProcessA(
+		NULL,
+		commandLine, // command line (must be writable)
+		NULL, NULL, FALSE,
+		CREATE_NO_WINDOW, // 0 if you want to see the Python console
+		NULL, NULL,
+		&si, &pi
+	)) {
+		MessageBoxA(NULL, "Failed to start bot script", "Error", MB_OK);
+	}
+	else {
+		CloseHandle(pi.hProcess);
+		CloseHandle(pi.hThread);
+	}
+}
+
 void Game::updateMousePosition()
 {
 	this->mousePosWindow = sf::Mouse::getPosition(*this->window);
@@ -163,8 +240,16 @@ void Game::Update()
 		this->endGame = true;
 		this->showGO();
 	}
+
+	this->botServer.sendEnemyPosition(this->enemies);
+
+	float x, y;
+	if(this->botServer.receiveClick(x,y))
+	{
+		this->botClickAt(sf::Vector2f(x, y));
+	}
 	
-	
+	//this->handleClick(mousePosView);
 }
 
 void Game::updateText()
@@ -260,4 +345,5 @@ void Game::renderEnemies(sf::RenderTarget& target)
 Game::~Game()
 {
 	delete this->window;
+	botServer.close();
 }
